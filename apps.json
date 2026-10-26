@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Ever Sine Store",
+    "category": "Apps",
+    "description": "Welcome to Ever Sine Store. Discover apps, games and useful tools.",
+    "version": "1.0",
+    "icon": "https://placehold.co/100x100/7c5cff/ffffff?text=ES",
+    "downloadUrl": ""
+  },
+  {
+    "name": "Coming Soon",
+    "category": "Games",
+    "description": "New games are coming soon. Stay connected with Ever Sine Store.",
+    "version": "1.0",
+    "icon": "https://placehold.co/100x100/151e30/ffffff?text=Game",
+    "downloadUrl": ""
+  }
+]
