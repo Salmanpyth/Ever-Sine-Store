@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Ever Sine Store - Discover apps, games and useful tools.">
+  <title>Ever Sine Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="./">
+      <span class="brand-icon">E</span>
+      <span>Ever Sine <strong>Store</strong></span>
+    </a>
+    <a class="contact-btn" href="https://wa.me/917388804037">Contact</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="eyebrow">YOUR DIGITAL WORLD</span>
+      <h1>Discover apps.<br><span>Find your next favourite.</span></h1>
+      <p>Explore apps, games and useful tools in one place.</p>
+      <a class="hero-btn" href="#apps">Explore Apps ↓</a>
+    </section>
+
+    <section class="catalog" id="apps">
+      <div class="section-heading">
+        <div>
+          <h2>Explore Store</h2>
+          <p>Discover something useful today.</p>
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <input id="searchInput" type="search"
+          placeholder="Search apps and games..."
+          aria-label="Search apps and games">
+      </div>
+
+      <div class="categories" id="categories">
+        <button class="category active" data-category="All">All</button>
+        <button class="category" data-category="Apps">Apps</button>
+        <button class="category" data-category="Games">Games</button>
+        <button class="category" data-category="Tools">Tools</button>
+      </div>
+
+      <div id="appGrid" class="app-grid">
+        <div class="loading">Loading apps...</div>
+      </div>
+      <p id="emptyMessage" class="empty-message" hidden>
+        No apps found. Try another search.
+      </p>
+    </section>
+
+    <section class="about">
+      <h2>Welcome to Ever Sine Store</h2>
+      <p>A simple place to discover apps, games and digital tools.</p>
+      <a href="mailto:ever-sine@outlook.com">Suggest an app</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="./">Ever Sine Store</a>
+    <p>Discover more. Do more.</p>
+    <div class="footer-links">
+      <a href="mailto:ever-sine@outlook.com">Email</a>
+      <a href="https://wa.me/917388804037">WhatsApp</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Ever Sine Store</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
