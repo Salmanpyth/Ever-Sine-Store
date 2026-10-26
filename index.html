@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ever Sine Store – Apps, Games and Tools</title>
+  <meta name="description" content="Ever Sine Store is a lightweight catalog where you can discover apps, games and digital tools and download them with direct links.">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to catalog</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="Ever Sine Store home">
+        <span class="brand-icon" aria-hidden="true">E</span>
+        <span class="brand-name">Ever Sine Store</span>
+      </a>
+      <a class="btn btn-outline" href="https://wa.me/917388804037" target="_blank" rel="noopener noreferrer">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Apps &middot; Games &middot; Tools</p>
+        <h1>Discover apps. Find your next favourite.</h1>
+        <p class="hero-text">Browse a hand-picked catalog of apps, games and digital tools. Search, filter by category and download straight from the source.</p>
+        <a class="btn btn-primary" href="#catalog" id="browse-btn">Browse catalog</a>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog" aria-labelledby="catalog-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="catalog-title">App catalog</h2>
+          <p class="section-sub">Find what you need in seconds.</p>
+        </div>
+
+        <div class="controls">
+          <div class="search-wrap">
+            <label class="visually-hidden" for="search">Search apps by name, category or description</label>
+            <input id="search" type="search" placeholder="Search apps, games and tools" autocomplete="off">
+          </div>
+          <div class="filters" role="group" aria-label="Filter by category">
+            <button type="button" class="chip is-active" data-category="All" aria-pressed="true">All</button>
+            <button type="button" class="chip" data-category="Apps" aria-pressed="false">Apps</button>
+            <button type="button" class="chip" data-category="Games" aria-pressed="false">Games</button>
+            <button type="button" class="chip" data-category="Tools" aria-pressed="false">Tools</button>
+          </div>
+        </div>
+
+        <p class="result-count" id="result-count" aria-live="polite"></p>
+        <div class="grid" id="app-grid"></div>
+        <div class="message" id="message" role="status" aria-live="polite" hidden></div>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="container about-inner">
+        <h2 id="about-title">About Ever Sine Store</h2>
+        <p>Ever Sine Store is a simple, fast catalog of apps, games and tools. There is no sign-up and no tracking. Pick an app, check its version and download it directly. Looking for something that is not listed yet? Send a request and we will look into it.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-icon" aria-hidden="true">E</span>
+        <span class="brand-name">Ever Sine Store</span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="mailto:ever-sine@outlook.com">ever-sine@outlook.com</a></li>
+        <li><a href="https://wa.me/917388804037" target="_blank" rel="noopener noreferrer">WhatsApp: 7388804037</a></li>
+      </ul>
+      <p class="copyright">&copy; <span id="year"></span> Ever Sine Store. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

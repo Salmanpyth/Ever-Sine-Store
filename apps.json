@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Ever Sine Store",
+    "category": "Apps",
+    "description": "Demo entry: the official Ever Sine Store app. Download link is not available yet, so you can request it by email.",
+    "version": "1.0",
+    "icon": "",
+    "downloadUrl": ""
+  },
+  {
+    "name": "Coming Soon",
+    "category": "Games",
+    "description": "Demo entry: exciting games are on the way. Request this one by email and we will let you know when it is ready.",
+    "version": "0.0",
+    "icon": "",
+    "downloadUrl": ""
+  }
+]
